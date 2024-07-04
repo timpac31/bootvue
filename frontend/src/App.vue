@@ -4,6 +4,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <HelloWorld msg="Hello Spring Bott + Vue" />
+  <router-view></router-view>
 </template>
 
 <style scoped>
