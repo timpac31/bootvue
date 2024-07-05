@@ -4,7 +4,7 @@
 
 <template>
   <div class="main-header">
-    <router-link :to="{name: 'Home'}">로그인</router-link>
+    <router-link :to="{name: 'SignIn'}">로그인</router-link>
   </div>
 </template>
 
