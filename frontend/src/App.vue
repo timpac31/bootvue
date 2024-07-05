@@ -1,10 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <HelloWorld msg="Hello Spring Bott + Vue" />
+  <router-view name="header"/>
+  <router-view name="menu"/>
   <router-view></router-view>
+  <router-view name="footer"/>
 </template>
 
 <style scoped>
