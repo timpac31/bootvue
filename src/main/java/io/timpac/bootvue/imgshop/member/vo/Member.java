@@ -7,4 +7,6 @@ public class Member {
     private String userId;
     private String userName;
     private String userPw;
+    private String job;
+    private int coin;
 }
