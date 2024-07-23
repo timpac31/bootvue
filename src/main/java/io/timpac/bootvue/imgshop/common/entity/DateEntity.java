@@ -2,6 +2,7 @@ package io.timpac.bootvue.imgshop.common.entity;
 
 import jakarta.persistence.Embeddable;
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDateTime;
 
@@ -9,6 +10,6 @@ import java.time.LocalDateTime;
 public class DateEntity {
     @CreationTimestamp
     private LocalDateTime regDate;
-    @CreationTimestamp
+    @UpdateTimestamp
     private LocalDateTime updDate;
 }
